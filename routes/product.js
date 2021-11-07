@@ -14,6 +14,7 @@ route.delete('/:productId' , authenticateJWT , productController.delete)
 // route.get('/:productId', productController.read);
 //produt route
 
+
 route.get('/:catid', productController.readCAt);
 
 route.put(

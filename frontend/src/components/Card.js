@@ -10,6 +10,7 @@ const Card = ({product}) => {
      // const openNewPage = () => {
     //     window.open('http://localhost:3000/admin/dashboard/image', "_blank")
     // }
+    // this is card
 
     const dispatch = useDispatch()
     return (
